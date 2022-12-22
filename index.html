@@ -1,0 +1,60 @@
+<!--
+File: index.html
+GUI HW5: html file for web page
+Cornelius (C.J.) Sheehan, UMass Lowell Computer Science, cornelius_sheehan@student.uml.edu
+
+Copyright (c) 2022 by C.J. 
+All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on December 13th, 2022 at 11:00AM
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrabble</title>
+  <!--css style-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div id="main">
+    <div id="headerDiv">
+      <h1 id="header">SCRABBLE</h1>
+    </div>
+    <!--the whole game is placed within this div-->
+    <div id="gameDiv">
+      <!--the div that holds the board-->
+      <div id="boardDiv">        
+        <img id="sq1" class="board" src="graphics_data/reg_spot.png">
+        <img id="sq2" class="board double" src="graphics_data/double_word_spot.png">
+        <img id="sq3" class="board" src="graphics_data/reg_spot.png">
+        <img id="sq4" class="board" src="graphics_data/reg_spot.png">
+        <img id="sq5" class="board" src="graphics_data/reg_spot.png">
+        <img id="sq6" class="board double" src="graphics_data/double_word_spot.png">
+        <img id="sq7" class="board" src="graphics_data/reg_spot.png">
+      </div>
+      <!--the div that holds the dock/rack, its empty because I dynamically place the tiles into it-->
+      <div id="dockDiv">
+      </div>
+      <!--these are game states to be displayed-->
+      <p>Points: <span id="points">0</span></p>
+      <p>Word: <span id="word"></span></p>
+      <p>Running Total: <span id="runningtotal">0</span></p>
+      <p>Tiles remaining: <span id="tr"></span></p>
+      <button id="acceptWord">Accept Word</button>
+      <button id="restartBtn">Restart</button>
+      <p id="gameOverp"></p>
+    </div>  
+  </div>  
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--Jquery UI-->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>    
+  <!--JS script-->
+  <script type="module" src="js/myScript.js"></script> 
+</body>
+</html>
