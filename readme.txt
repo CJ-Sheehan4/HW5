@@ -3,10 +3,19 @@ HW5
 repo: https://github.com/CJ-Sheehan4/HW5
 webpage: https://cj-sheehan4.github.io/HW5/
 
+NOTE: 
+my first submission, I realized that this will not run properly if you 
+click on the index.html file in the folder to open the web brower. I 
+noticed this only runs using the live server extension with VS Code. 
+So if you have the live server extension with VS Code, to run it you 
+right click on the HW5 folder and click on open with vs code, then 
+open the index.html file, right click on the inside of it,
+and click the open that says open with live server. 
+
 NOTE1: I was unable to get my page to work correctly on GitHub Pages.
 So Please use a local copy to test and grade this. Locally this works fine. 
 
-note2: if you want to test what happens when remaining tiles runs out, you 
+NOTE2: if you want to test what happens when remaining tiles runs out, you 
 can uncomment "import { tiles } from "/graphics_data/test.js";" in myScript.js
 and then comment out "import { tiles } from "/graphics_data/tiles.js";".
 
