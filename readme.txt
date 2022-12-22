@@ -1,6 +1,12 @@
 C.J. Sheehan
 HW5
-note: if you want to test what happens when remaining tiles runs out, you 
+repo: https://github.com/CJ-Sheehan4/HW5
+webpage: https://cj-sheehan4.github.io/HW5/
+
+NOTE1: I was unable to get my page to work correctly on GitHub Pages.
+So Please use a local copy to test and grade this. Locally this works fine. 
+
+note2: if you want to test what happens when remaining tiles runs out, you 
 can uncomment "import { tiles } from "/graphics_data/test.js";" in myScript.js
 and then comment out "import { tiles } from "/graphics_data/tiles.js";".
 
